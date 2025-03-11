@@ -35,7 +35,7 @@ export default function Navbar() {
                   alt="Tesla Logo"
                   width={120}
                   height={24}
-                  className="h-6 w-auto"
+                  className="h-6 w-auto object-contain"
                 />
               </a>
             </div>
