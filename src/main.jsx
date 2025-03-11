@@ -7,6 +7,7 @@ import './Ayush/LoadingScreen.jsx'
 import Rishabh from './Rishabh.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    {/* <App /> */}
+    <Rishabh/>
   </StrictMode>,
 )
