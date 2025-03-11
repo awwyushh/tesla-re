@@ -83,13 +83,7 @@ export default function LoadingScreen() {
                     <div
                         className="absolute top-8 left-8 flex items-center justify-center text-zinc-100 z-10 pointer-events-none"
                     >
-                        <BlurText
-                            text="Drive the future"
-                            delay={progress === 100 ? 0 : 150}
-                            animateBy="words"
-                            direction="top"
-                            className="text-9xl mb-8"
-                        />
+                        <h1 className="text-4xl font-bold">Cybertruck</h1>
                 </div>
 
 

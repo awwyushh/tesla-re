@@ -70,7 +70,7 @@ export default function Parallex() {
             id: "hero",
             title: "CYBERTRUCK",
             subtitle: "FUTURE-FORWARD DESIGN",
-            image: "/cyberpp.webp",
+            image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3DzldFZmAm8kdGy-Dd2FKhkJzfi4GS3ZeVQ&s",
             description: "A VEHICLE THAT DOESN'T LOOK LIKE ANYTHING ELSE ON THE ROAD",
         },
         // ... (keeping all other sections the same, just updating image URLs)
@@ -78,7 +78,7 @@ export default function Parallex() {
             id: "order",
             title: "ORDER NOW",
             subtitle: "BE PART OF THE FUTURE",
-            image: "https://wallpapercg.com/download/tesla-cybertruck--18126.jpg",
+            image: "/teslacar.jpg",
             description: "RESERVE YOUR CYBERTRUCK TODAY",
         },
     ];
@@ -98,10 +98,10 @@ export default function Parallex() {
     ];
 
     const galleryImages = [
-        "https://via.placeholder.com/1200x800",
-        "https://via.placeholder.com/1200x800",
-        "https://via.placeholder.com/1200x800",
-        "https://via.placeholder.com/1200x800",
+        "https://wallpapercg.com/download/tesla-cybertruck--18126.jpg",
+        "https://images.wsj.net/im-927888?width=1280&size=1.33333333",
+        "https://automaxgroup.me/wp-content/uploads/2025/01/1.webp",
+        "https://s3.amazonaws.com/images.gearjunkie.com/uploads/2019/11/tesla_pickup-700x350.png",
         // ... (updating all gallery images to use real placeholder URLs)
     ];
 
@@ -243,10 +243,7 @@ export default function Parallex() {
                             ))}
                         </div>
                     </ScrollArea>
-                    <div className="flex justify-center mt-8">
-                        <ChevronRight className="h-10 w-10 text-white animate-pulse" />
-                        <span className="text-white ml-2">Scroll to see more</span>
-                    </div>
+                    
                 </div>
             </section>
 
