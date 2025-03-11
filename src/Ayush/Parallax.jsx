@@ -2,6 +2,8 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { ChevronDown, ChevronRight, Truck, Zap, Shield, Gauge, Wrench, X } from "lucide-react";
 import { useState, useRef } from "react";
 import FlowingMenu from "./anims/FlowingMenu";
+import TeslaPage from "./3d/modelfeatures";
+
 
 // Custom Button component
 const Button = ({ children, variant, size, className, ...props }) => {
@@ -68,7 +70,7 @@ export default function Parallex() {
             id: "hero",
             title: "CYBERTRUCK",
             subtitle: "FUTURE-FORWARD DESIGN",
-            image: "https://via.placeholder.com/1920x1080",
+            image: "/cyberpp.webp",
             description: "A VEHICLE THAT DOESN'T LOOK LIKE ANYTHING ELSE ON THE ROAD",
         },
         // ... (keeping all other sections the same, just updating image URLs)
@@ -76,7 +78,7 @@ export default function Parallex() {
             id: "order",
             title: "ORDER NOW",
             subtitle: "BE PART OF THE FUTURE",
-            image: "https://via.placeholder.com/1920x1080",
+            image: "https://wallpapercg.com/download/tesla-cybertruck--18126.jpg",
             description: "RESERVE YOUR CYBERTRUCK TODAY",
         },
     ];
@@ -249,6 +251,9 @@ export default function Parallex() {
             </section>
 
             {/* ... rest of the components ... */}
+
+            <TeslaPage />
+
         </div>
     );
 }

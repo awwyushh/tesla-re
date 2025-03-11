@@ -15,6 +15,7 @@
     "@react-three/fiber": "^9.1.0",
     "@tailwindcss/vite": "^4.0.12",
     "framer-motion": "^12.4.11",
+    "gl-matrix": "^3.4.3",
     "gsap": "^3.12.7",
     "lucide-react": "^0.479.0",
     "react": "^19.0.0",
