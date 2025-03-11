@@ -3,6 +3,8 @@ import Hero from './Ayush/Hero'
 import Parallex from './Ayush/Parallax'
 
 import InfiniteMenu from './Ayush/anims/infmenu'
+import Footer from './rishabh/Footer';
+import Red from './rishabh/Red';
 
 const items = [
     {
@@ -41,6 +43,10 @@ function App() {
         <InfiniteMenu items={items} />
 
       </div>
+
+      <Red/>
+      <Footer/>
+
     </>
   )
 }

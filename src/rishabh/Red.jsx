@@ -29,7 +29,7 @@ const Red = () => {
   }, []);
 
   return (
-    <div className='w-full relative'>
+    <div className='w-full'>
       <img src={Card} alt="Car" className='car absolute z-50 h-110 w-120 top-[550px]' />
       <img src={homepage} className='relative w-full' />
       <button className='absolute top-[735px] left-[475px] text-3xl text-black z-30 bg-white rounded-xl px-20 py-5'>Battery Power</button>
